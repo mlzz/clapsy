@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clappsy MX</title>
+
+  <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat|Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>-->
+
+
+</head>
+<body>
+
+
+<div class="row bg">
+
+  <header>
+    <nav>
+    <div class="container">
+        <ul>
+          <li ><a href="#uno" class="boton" id="boton1">  <h1 class="header_ul_li"> New </h1> </a></li>
+          <li ><a href="#uno"  id="boton2">  <h1 class="header_ul_li">  Clothes </h1></a></li>
+          <li ><a href="#tres" class="boton" id="boton3">  <h1 class="header_ul_li"> Matches </h1> </a></li>
+          <li ><a href="#cuatro" class="boton4" id="boton4">  <h1 class="header_ul_li"> Iniciar Sesión</h1> </a></li>
+        </ul>
+
+        <!--<a href="#dos" class="boton"><img src="img/fas.png" alt="Fashion"/> </a>
+        <a href="#tres" class="boton"><img src="img/vin.jpg" alt="wine" /> </a> -->
+    </div>
+  </nav>
+    <div  id="Bienvenida">
+      <p id="bien"> ¡Bienvenida a</p> <p id="clap"> Clappsy!</p>
+      <div id="busqueda">
+      <select class="box" name="Tipo de vestido">
+        <option value="" >Vestido de noche</option>
+        <option value="">Vestido corto </option>
+        <option value="">Vestido de cokctail</option>
+      </select>
+      <form id="form">
+        <input id="datepicker" />
+      </form>
+      <select class="box" name="Duración">
+        <option value="" >1-3 días</option>
+        <option value="">3-5 días </option>
+        <option value="">más de 5 días</option>
+      </select>
+
+      <input id="find" type="submit" value="Encontrar vestido">
+    </div>
+  </div>
+  </header>
+</div>
+<div class="info">
+<p id="infotext1">¿Quiénes somos?</p>
+<p id="infotext2">¿Cómo funciona?</p>
+<p id="infotext3">Contacto</p>
+</div>
+
+<div class="container" id="uno">
+  <h1>Nuevos looks</h1>
+  <br>
+  <div class="col-md-12">
+    <div class="col-md-4 top"><img class="col-img"src="img/look1.jpg" alt="Look1" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look3.jpg" alt="Look3" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look7.jpg" alt="Look7" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look5.jpg" alt="Look5" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look8.jpg" alt="Look8" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/loook9.jpg" alt="Look9" /></div>
+  </div>
+</div>
+
+<div class="container" id="tres">
+  <h1>Mis Matches</h1>
+  <br>
+  <div class="col-md-12">
+    <div class="col-md-4 top"><img class="col-img"src="img/look10.jpg" alt="Look10" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look11.jpg" alt="Look11" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look12.jpg" alt="Look12" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look13.jpg" alt="Look13" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look14.jpg" alt="Look14" /></div>
+    <div class="col-md-4 top"><img class="col-img"src="img/look15.jpg" alt="Look15" /></div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!--<script>
+$(function(){
+  $(".boton").click(function(event){
+    $(window).scrollTo($(this).attr("href"),1000);
+  });
+});
+</script>-->
+<script>
+$(document).ready(function() {
+  $("#datepicker").datepicker();
+
+  $(function(){
+    $(".boton").click(function(event){
+      $(window).scrollTo($(this).attr("href"),1000);
+    });
+  });
+
+});
+</script>
+</body>
+<footer class="sitefooter">
+  <div id="final">
+    <ul>
+      <li id="foot1"> <a href= > ©2016 CLAPPSY INC. ALL RIGHTS RESERVED</a> </li>
+      <li id="foot2"> <a href= > Cominícate con nosotros</a></li>
+      <li id="foot3"> <a href= >Términos y Condiciones </a></li>
+      <li id="foot4"> <a href= >Políticas de Privacidad</a></li>
+    </ul>
+  </div>
+</html>
